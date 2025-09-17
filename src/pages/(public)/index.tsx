@@ -1,3 +1,4 @@
+import ProductCard from "./_components/ProductCard";
 import GreetingHomePage from "./_components/GreetingHomePage";
 
 export default function Component() {
@@ -5,6 +6,9 @@ export default function Component() {
     <div className="">
       <div className="py-2">
         <GreetingHomePage />
+      </div>
+      <div>
+        <ProductCard />
       </div>
     </div>
   )
